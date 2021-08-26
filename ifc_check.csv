@@ -1,0 +1,5 @@
+entity_name;predefinedtype;ap_classification_location;ap_classification_value;ap_classification_system;ap_property_location;ap_propertyset;ap_property_name;ap_property_value;ap_material_location;ap_material_value;classification_location;classification_value;classification_system;property_location;propertyset;property_name;property_value;material_location;material_value
+IfcCovering;CLADDING;instance;21.22;NL-Sfb;;;;;;;type;whatever;NL-Sfb;type;AedesUVIP;Firerating;30;type;test_material
+IfcCovering;CLADDING;;;;;;;;;;;;;instance;AedesUVIP;Firerating;enumeration: 30, 60, 90;;
+IfcCovering;CLADDING;type;21.22;NL-Sfb;;;;;;;type;length: 2;NL-Sfb;type;Anas;Codice WBS;min: 0, max: 120;type;pattern: [a-z]
+IfcWindow;;any;pattern: [0-9].[0-9];NL-Sfb;any;attribute;Name;merk G;;;;;;any;attribute;OverallWidth;min: 0, max: 120;;
