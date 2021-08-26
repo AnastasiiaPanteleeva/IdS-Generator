@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS  ids_04.xsd">
+    <specification name="test">
+        <applicability>
+            <entity>
+                <name>
+					<simpleValue>IfcCovering</simpleValue>
+                </name>
+                <predefinedtype>
+					<simpleValue>CLADDING</simpleValue>
+                </predefinedtype>
+            </entity>
+        </applicability>
+        <requirements>
+            <entity>
+                <name>
+					<simpleValue>IfcCovering</simpleValue>
+                </name>
+                <predefinedtype>
+					<simpleValue>CLADDING</simpleValue>
+                </predefinedtype>
+            </entity>
+            <property location="instance">
+                <propertyset>
+					<simpleValue>AedesUVIP</simpleValue>
+                </propertyset>
+                <name>
+					<simpleValue>Firerating</simpleValue>
+                </name>
+				<value>
+					<xs:restriction base="xs:string">
+						<xs:enumeration value="30" />
+						<xs:enumeration value="60" />
+						<xs:enumeration value="90" />
+					</xs:restriction>
+				</value>
+            </property>
+        </requirements>
+    </specification>
+    <info />
+</ids>

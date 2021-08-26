@@ -1,0 +1,9 @@
+            <property location="{property_location}">
+                <propertyset>
+{propertyset}
+                </propertyset>
+                <name>
+{property_name}
+                </name>
+{property_value}
+            </property>

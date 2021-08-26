@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS  ids_04.xsd">
+    <specification name="test">
+        <applicability>
+            <entity>
+                <name>
+					<simpleValue>IfcWindow</simpleValue>
+                </name>
+                <predefinedtype>
+					<simpleValue>whatever</simpleValue>
+                </predefinedtype>
+            </entity>
+            <classification location="any">
+				<value>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[0-9].[0-9]" />
+					</xs:restriction>
+				</value>
+                <system>
+					<simpleValue>NL-Sfb</simpleValue>
+                </system>
+            </classification>
+            <property location="any">
+                <propertyset>
+					<simpleValue>attribute</simpleValue>
+                </propertyset>
+                <name>
+					<simpleValue>Name</simpleValue>
+                </name>
+				<value>
+					<simpleValue>merk G</simpleValue>
+				</value>
+            </property>
+        </applicability>
+        <requirements>
+            <entity>
+                <name>
+					<simpleValue>IfcWindow</simpleValue>
+                </name>
+                <predefinedtype>
+					<simpleValue>whatever</simpleValue>
+                </predefinedtype>
+            </entity>
+            <property location="any">
+                <propertyset>
+					<simpleValue>attribute</simpleValue>
+                </propertyset>
+                <name>
+					<simpleValue>OverallWidth</simpleValue>
+                </name>
+				<value>
+					<xs:restriction base="xs:integer">
+						<xs:minInclusive value="0" />
+						<xs:maxInclusive value="120" />
+					</xs:restriction>
+				</value>
+            </property>
+        </requirements>
+    </specification>
+    <info />
+</ids>

@@ -1,0 +1,6 @@
+            <classification location="{classification_location}">
+{classification_value}
+                <system>
+{classification_system}
+                </system>
+            </classification>

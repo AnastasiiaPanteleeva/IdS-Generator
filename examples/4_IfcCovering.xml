@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<ids xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://standards.buildingsmart.org/IDS  ids_04.xsd">
+    <specification name="test">
+        <applicability>
+            <entity>
+                <name>
+					<simpleValue>IfcCovering</simpleValue>
+                </name>
+                <predefinedtype>
+					<simpleValue>CLADDING</simpleValue>
+                </predefinedtype>
+            </entity>
+            <classification location="type">
+				<value>
+					<simpleValue>21.22</simpleValue>
+				</value>
+                <system>
+					<simpleValue>NL-Sfb</simpleValue>
+                </system>
+            </classification>
+        </applicability>
+        <requirements>
+            <entity>
+                <name>
+					<simpleValue>IfcCovering</simpleValue>
+                </name>
+                <predefinedtype>
+					<simpleValue>CLADDING</simpleValue>
+                </predefinedtype>
+            </entity>
+            <classification location="type">
+				<value>
+					<xs:restriction base="xs:string">
+						<xs:length value="2" />
+					</xs:restriction>
+				</value>
+                <system>
+					<simpleValue>NL-Sfb</simpleValue>
+                </system>
+            </classification>
+            <property location="type">
+                <propertyset>
+					<simpleValue>Anas</simpleValue>
+                </propertyset>
+                <name>
+					<simpleValue>Codice WBS</simpleValue>
+                </name>
+				<value>
+					<xs:restriction base="xs:integer">
+						<xs:minInclusive value="0" />
+						<xs:maxInclusive value="120" />
+					</xs:restriction>
+				</value>
+            </property>
+            <material location="type">
+				<value>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[a-z]" />
+					</xs:restriction>
+				</value>
+            </material>
+        </requirements>
+    </specification>
+    <info />
+</ids>

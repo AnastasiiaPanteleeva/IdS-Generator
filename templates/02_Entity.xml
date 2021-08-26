@@ -1,0 +1,8 @@
+            <entity>
+                <name>
+{entity_name}
+                </name>
+                <predefinedtype>
+{predefinedtype}
+                </predefinedtype>
+            </entity>
